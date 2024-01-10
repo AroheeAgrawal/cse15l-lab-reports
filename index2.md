@@ -4,9 +4,9 @@
 *Use each type of markdown syntax*
 
 Here is a list:
-*Hi
-*Hello 
-*Hey
+* Hi
+* Hello 
+* Hey
 
 *** >blockquote
 
