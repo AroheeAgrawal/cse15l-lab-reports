@@ -27,7 +27,7 @@
 * Running `ls` with the argument `messages` lists the directories and files in the current directory which is lecture1
 * the output is not an error
 ### File as an Argument
-![Image]()
+![Image](Screenshot 2024-01-16 at 6.45.35 PM.png)
 * Working Directory:`/home/lecture1/messages`
 * Running `ls` with a file argument results in the specified file being listed
 * the output is not an error
