@@ -12,7 +12,7 @@
 * Working Directory:`/home/lecture1` messages
 * Using `cd` with a file as an argument results in an error. `cd` is designed for changing directories, not files
 * the output is an error because the argument for `cd` is supposed to be a directory
-## Command 'ls'
+## Command `ls`
 ### No Arguments
 * Working Directory: `/home/lecture1`
 * Running `ls` with no arguments lists the files and directories in the current directory which is lecture1
@@ -25,7 +25,7 @@
 * Working Directory:`/home/lecture1/messages`
 * Running `ls` with a file argument results in the specified file being listed
 * the output is not an error
-## Command 'cat'
+## Command `cat`
 ### No Arguments
 * Working Directory: `/home`
 * Using `cat` with no arguments results in an error. `cat` expects a file as an argument to concatenate and display its content. this is why there is no output
