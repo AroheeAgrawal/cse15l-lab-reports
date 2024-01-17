@@ -1,6 +1,7 @@
 # Lab Report 1
-## Command cd
-no arguments 
+## Command `cd`
+### No Arguements 
+
 ## Command ls
 *no arguments
 *directory as an argument
