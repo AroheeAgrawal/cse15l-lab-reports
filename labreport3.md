@@ -61,7 +61,7 @@ grep -ci "law" og98019.txt
 This counts the number of lines in the file that contains "law" being case insensitive.
 ### `-l` This displays the names of file that contain at least one line that contains the search parameter, rather than the actual matching lines. It's useful when you want to know which files contain the search parameter. 
 ```
-grep -l "" /Users/aroheeagrawal/docsearch/technical/*
+grep -l "bio" /Users/aroheeagrawal/docsearch/technical/*
 ```
 This provides the names of the directories that contain "bio" in them.
 ```
