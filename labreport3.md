@@ -33,6 +33,7 @@ This fixes the solution because in the initial code the array was getting overwr
 
 ## Part 2 - Grep
 ### `-r` This allows `grep` to search recursively through directories. It's useful when you want to search for a pattern or word not just in one file but throughout all the files within a directory and its subdirectories.
+Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 ```
 grep -r "biology" /Users/aroheeagrawal/docsearch/technical/biomed
 ```
@@ -42,24 +43,27 @@ grep -r "current" /Users/aroheeagrawal/docsearch/technical
 ```
 This recursivley searches through the technical directory and all of its subdirectories for all the files that contain the phrase current.
 ### `-i` This allows `grep` to search while ignoring case distinctions during the search. It's useful when you want to perform a case-insensitive search.
+Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/ 
 ```
-grep -i "law" og98019.txt
+grep -i "law" /Users/aroheeagrawal/docsearch/technical/government/media/Legal_Aid_campaign.txt
 ```
-This ignores case distinctions and searches for the "law" through the file og98019.txt.
+This ignores case distinctions and searches for the "law" through the file Legal_Aid_campaign.txt
 ```
 grep -ri "judge" /Users/aroheeagrawal/docsearch/technical/government
 ```
 This searches through the government directory for all files that have "judge" while ignoring case distinctions.
 ### `-c` This  displays the count of lines that match the search parameter , rather than the actual matching lines. It's useful when you want to know the total number of matches.
+Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/ and https://docs.rackspace.com/docs/use-the-linux-grep-command
 ```
-grep -c "law" og98019.txt
+grep -c "law" /Users/aroheeagrawal/docsearch/technical/government/media/Legal_Aid_campaign.txt
 ```
 This counts the number of lines in the file that contains "law".
 ```
 grep -ci "law" og98019.txt
 ```
-This counts the number of lines in the file that contains "law" being case insensitive.
+This counts the number of lines in the file that contains "law" while being case insensitive.
 ### `-l` This displays the names of file that contain at least one line that contains the search parameter, rather than the actual matching lines. It's useful when you want to know which files contain the search parameter. 
+Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 ```
 grep -l "bio" /Users/aroheeagrawal/docsearch/technical/*
 ```
