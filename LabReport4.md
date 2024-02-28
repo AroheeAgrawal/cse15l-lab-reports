@@ -10,6 +10,6 @@ Keys Pressed: `vim <space> ListExamples.java <enter>` I opened the ListExamples 
 until I reached the line that contained the comment saying change index1 to index2. This highlighted the block of code that contained the incorrect index incrementation. After this I typed `:s/index1/index2/g<enter>`
 this replaced all of the occurences of index 1 to index 2 within the highlighted block of text. Then I pressed `<esc>` to exit visual mode and typed `:wq <enter>` to save the changes and exit Vim
 ## Step 8: Run the tests, demonstrating that they now succeed
-Keys Pressed: `<up><enter>` The command to run the test.sh file was 1 up in the command history so I used the up arrow to access it. 
+Keys Pressed: `<up><up><enter>` The command to run the test.sh file was 2 up in the command history so I used the up arrow to access it. 
 ## Step 9: Commit and push the resulting change to your Github account (you can pick any commit message!)
 Keys Pressed: 
