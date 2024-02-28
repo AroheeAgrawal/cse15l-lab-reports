@@ -37,38 +37,48 @@ Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 ```
 grep -r "biology" /Users/aroheeagrawal/docsearch/technical/biomed
 ```
+![Image](IMG_8195.jpg)
 This searches recursivley through the biomed directory for all files that contain the phrase biology.
 ```
 grep -r "current" /Users/aroheeagrawal/docsearch/technical
 ```
+![Image](IMG_8207.jpg)
 This recursivley searches through the technical directory and all of its subdirectories for all the files that contain the phrase current.
 ### `-i` This allows `grep` to search while ignoring case distinctions during the search. It's useful when you want to perform a case-insensitive search.
 Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/ 
 ```
 grep -i "law" /Users/aroheeagrawal/docsearch/technical/government/media/Legal_Aid_campaign.txt
 ```
+![Image](IMG_8196.jpg)
 This ignores case distinctions and searches for the "law" through the file Legal_Aid_campaign.txt
 ```
 grep -ri "judge" /Users/aroheeagrawal/docsearch/technical/government
 ```
+![Image](IMG_8197.jpg)
 This searches through the government directory for all files that have "judge" while ignoring case distinctions.
+
 ### `-c` This  displays the count of lines that match the search parameter , rather than the actual matching lines. It's useful when you want to know the total number of matches.
 Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/ and https://docs.rackspace.com/docs/use-the-linux-grep-command
 ```
 grep -c "law" /Users/aroheeagrawal/docsearch/technical/government/media/Legal_Aid_campaign.txt
 ```
+![Image](IMG_8198.jpg)
 This counts the number of lines in the file that contains "law".
 ```
 grep -ci "law" og98019.txt
 ```
+![Image](IMG_8199.jpg)
 This counts the number of lines in the file that contains "law" while being case insensitive.
+
 ### `-l` This displays the names of file that contain at least one line that contains the search parameter, rather than the actual matching lines. It's useful when you want to know which files contain the search parameter. 
 Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/ and https://www.cyberciti.biz/faq/howto-use-grep-command-in-linux-unix/
 ```
 grep -l "bio" /Users/aroheeagrawal/docsearch/technical/*
 ```
+![Image](IMG_8200.jpg)
 This provides the names of the directories that contain "bio" in them.
 ```
 grep -rl "bio" /Users/aroheeagrawal/docsearch/technical/biomed
 ```
+![Image](IMG_8208.jpg) 
 This searches recursivley through the biomed directory and displays the names of all the files that contain "bio" in them. 
