@@ -1,7 +1,7 @@
 # Lab Report 4
 ## Step 4: Log into ieng6
 Keys Pressed:`ssh <space> user@ieng6.ucsd.edu <enter>` This allowed me to log into my ieng6 account
-![Image](IMG_8208.jpg)
+![Image](IMG_8200.jpg)
 ## Step 5: Clone your fork of the repository from your Github account (using the SSH URL)
 Keys Pressed: `git <space> clone <space> <Command+V> <enter>` I typed out git clone so that I could clone the repositiory and pasted the ssh url that I had copied from github
 ## Step 6: Run the tests, demonstrating that they fail
