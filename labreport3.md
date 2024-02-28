@@ -42,7 +42,7 @@ This searches recursivley through the biomed directory for all files that contai
 ```
 grep -r "current" /Users/aroheeagrawal/docsearch/technical
 ```
-![Image](IMG_8207.jpg)
+![Image](IMG_8207.JPG)
 This recursivley searches through the technical directory and all of its subdirectories for all the files that contain the phrase current.
 ### `-i` This allows `grep` to search while ignoring case distinctions during the search. It's useful when you want to perform a case-insensitive search.
 Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/ 
@@ -80,5 +80,5 @@ This provides the names of the directories that contain "bio" in them.
 ```
 grep -rl "bio" /Users/aroheeagrawal/docsearch/technical/biomed
 ```
-![Image](IMG_8208.jpg) 
+![Image](IMG_8208.JPG) 
 This searches recursivley through the biomed directory and displays the names of all the files that contain "bio" in them. 
