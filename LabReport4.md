@@ -1,12 +1,12 @@
 # Lab Report 4
 ## Step 4: Log into ieng6
-Keys Pressed:`ssh <space> user@ieng6.ucsd.edu <enter>` This allowed me to log into my `ieng6` account
+Keys Pressed:`ssh <space> a1agrawal@ieng6.ucsd.edu <enter>` This allowed me to log into my `ieng6` account
 ![Image](IMG_8202.jpg)
 ## Step 5: Clone your fork of the repository from your Github account (using the SSH URL)
 Keys Pressed: `git <space> clone <space> <Command+V> <enter>` I typed this to clone the repositiory. I pasted the ssh url that I had copied from github for the forked repository.
 ![Image](IMG_8203.jpg)
 ## Step 6: Run the tests, demonstrating that they fail
-Keys Pressed: `bash <space> test.sh <enter> ` I ran the tests by running the `test.sh` file
+Keys Pressed: `cd <space> lab7` This changed the repository to lab7 which is where the test file is located.`bash <space> test.sh <enter> ` I ran the tests by running the `test.sh` file
 ![Image](IMG_8204.jpg)
 ## Step 7: Edit the code file to fix the failing test
 Keys Pressed: `vim <space> ListExamples.java <enter>` I opened the ListExamples file in `Vim` so that I could edit it. `<up><up<up><up><up><up>`Then I used the up arrow to navigate to the begining of the merge method where the error was. Then I clicked `v` so that I could enter visual mode on `Vim`. `<down><down><down><down>`And clicked the down arrow 
