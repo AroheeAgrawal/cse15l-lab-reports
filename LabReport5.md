@@ -1,11 +1,11 @@
 # Lab Report 5
 ## Part 1
 ### Student Post
- ![Image](IMG_8133.jpg)
+ ![Image](IMG_8222.JPG)
 ### TA Response
- ![Image](IMG_8133.jpg)
+ ![Image](IMG_8223.jpg)
 ### Fixed Output
- ![Image](IMG_8133.jpg)
+ ![Image](IMG_8224.JPG)
 The issue was a syntax error. There was a missing `then` after the `if` statement. While reviewing the script, I noticed that I had missed adding the `then` after the `if` condition. Here's the problematic section of code:
    `if [ $var -eq 1 ]
    echo "Variable is 1"
